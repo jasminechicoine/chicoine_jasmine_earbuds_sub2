@@ -1,0 +1,48 @@
+
+
+@media screen and (min-width: 768px) {
+    #nav2,
+    #nav3 {
+        display: none;
+    }
+
+    #hero {
+        height: 500px;
+    }
+
+    #image {
+        height: 255px;
+    }
+
+    #text {
+        height: 108px;
+        display: inline-block;
+    }
+
+    #prod-img-1,
+    #prod-img-2,
+    #prod-img-3,
+    #prod-img-4 {
+        height: 280px;
+        display: inline-block;
+    }
+
+
+    #share {
+        height: 242px;
+    }
+
+
+    #email,
+    #phone,
+    #sign-up {
+        height: 68px;
+    }
+
+    #socials-1,
+    #socials-2,
+    #socials-3,
+    #socials-4 {
+        height: 60px;
+    }
+}
