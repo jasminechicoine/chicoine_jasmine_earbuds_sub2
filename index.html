@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal 
+        device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>grid framework scaffold</title>
+    <!-- Link to reset or normalize before main.css
+    only choose one -->
+
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+  <body>
+   <div class="container">
+    <h1 class="hidden">Grid Framework Scaffold</h1>
+
+    <header class="grid-con" id="main-header">
+        <h2 class="hidden"> Main Header Content </h2>
+            <div class="box col-span-full col-end-1 m-col-start-1 m-col-end-3" 
+            id="main-logo">Logo</div>
+            <nav class="box col-start-4 col-end-5 m-col-start-7 m-col-end-9 xl-col-start-8 xl-col-end-10">Nav</nav> 
+            <nav id="nav2" class="box xl-col-start-10 xl-col-end-12">Nav2</nav>
+            <nav id="nav3" class="box xl-col-start-12 xl-col-end-14">Nav3</nav>
+    </header>
+
+    <main>
+        <h2 class="hidden"> Main Content </h2>
+            <section class="full-width-grid-con" id="hero-con">
+                <h2 class="hidden"> Hero Image </h2>
+                <div id="hero" class="box col-span-full">PRODUCT SHOWCASE</div>
+            </section>
+
+
+            <section class="grid-con">
+                <h2 class="hidden"> Image 1 </h2>
+                <div id="image" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-8 xl-col-start-1 xl-col-end-14"> XRAY Image</div>
+            </section>
+
+            <section class="grid-con">
+                <h2 class="hidden"> Text </h2>
+                <div id="image-shape" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-5 xl-col-start-2 xl-col-end-7">image</div>
+                <div id="text" class="box m-col-start-5 m-col-end-8 xl-col-start-8 xl-col-end-13">Text</div>
+            </section>
+
+
+            <section class="grid-con">
+                <h2 class="hidden"> Product images </h2>
+                <div id="prod-img-1" class="box col-start-1 col-end-5 m-col-start-1 m-col-end-5 xl-col-start-1 xl-col-end-7">Product-Image1</div>
+                <div id="prod-img-2" class="box  m-col-start-5 m-col-end-9 xl-col-start-8 xl-col-end-14">Product-Image2</div>
+            </section>
+
+            <section class="grid-con">
+                <h2 class="hidden"> Product images 2 </h2>
+                <div id="prod-img-3" class="box m-col-start-1 m-col-end-5 xl-col-start-1 xl-col-end-7">Product-Image3</div>
+                <div id="prod-img-4" class="box  m-col-start-5 m-col-end-9 xl-col-start-8 xl-col-end-14">Product-Image4</div>
+            </section>
+            
+
+            <section class="grid-con">
+                <h2 class="hidden"> Share Section </h2>
+                <div id="share" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-8 xl-col-start-1 xl-col-end-14">Share</div>
+            </section>
+
+    </main>
+
+
+    <footer>
+        <h2 class="hidden"> Main Footer Content </h2>   
+            
+            <section class="grid-con">
+                <h2 class="hidden"> Email Input </h2>
+                <div id="email" class="box col-start-1 col-end-5 m-col-start-3 m-col-end-7 xl-col-start-1 xl-col-end-6">Email</div>
+            </section>
+
+            <section class="grid-con">
+                <h2 class="hidden"> Phone Number Input </h2>
+                <div id="phone" class="box col-start-1 col-end-5 m-col-start-3 m-col-end-7 xl-col-start-1 xl-col-end-6">Phone</div>
+            </section>
+
+            <section class="grid-con">
+                <h2 class="hidden"> Sign Up Input</h2>
+                <div id="sign-up" class="box col-start-1 col-end-5 m-col-start-4 m-col-end-6 xl-col-start-1 xl-col-end-4">Sign Up :)</div>
+            </section>
+
+            <section class="grid-con">
+                <h2 class="hidden"> Social Media </h2>
+                <div id="socials-1" class="box col-start-1 col-end-1 m-col-start-3 m-col-end-3 xl-col-start-10 xl-col-end-10">Icon</div>
+                <div id="socials-2" class="box col-start-2 col-end-2 m-col-start-4 m-col-end-4 xl-col-start-11 xl-col-end-11">Icon</div>
+                <div id="socials-3" class="box col-start-3 col-end-3 m-col-start-5 m-col-end-5 xl-col-start-12 xl-col-end-12">Icon</div>
+                <div id="socials-4" class="box col-start-4 col-end-4 m-col-start-6 m-col-end-6 xl-col-start-13 xl-col-end-13">Icon</div>
+            </section>
+
+    </footer>
+
+  
+    <script src="js/main.js"></script>
+   </div>
+ </body>
+</html>
