@@ -1,15 +1,40 @@
-const dropdownButton = document.getElementById("dropdown-button");
-    const dropdownContent = document.getElementById("dropdown-content");
+(() => {
+    let imageCon = document.querySelector('#imageCon'),
+        drag = document.querySelector('.image-drag'),
+        left = document.querySelector('.image-left'),
+        dragging = false,
+        min = 0,
+        max = imageCon.offsetWidth;
 
-    dropdownButton.addEventListener("click", function() {
-        dropdownContent.classList.toggle("show");
-    });
+        function onDown() {
+            dragging = true;
+            console.log("Set to true")
+        }
 
-    // Close the dropdown if the user clicks outside of it
-    document.addEventListener("click", function(event) {
-        if (!event.target.matches('#dropdown-button')) {
-            if (dropdownContent.classList.contains('show')) {
-                dropdownContent.classList.remove('show');
+        function onUp() {
+            dragging = false;
+            console.log("Set to false")
+        }
+
+        function onMove(event) {
+            //console.log("on move called");
+            if(dragging===true) {
+                //console.log("dragging");
+                let x = event.clientX - imageCon.getBoundingClientRect().left;
+                console.log(x)
+
+                if(x < min) {
+                    x = min;
+                } else if (x > max) {
+                    x = max-10;
+                }
+
+                drag.style.left = x + "px";
+                left.style.width = x + "px";
             }
         }
-    });
+
+        drag.addEventListener('mousedown', onDown);
+        document.body.addEventListener('mouseup', onUp)
+        document.body.addEventListener('mousemove', onMove);
+})();
