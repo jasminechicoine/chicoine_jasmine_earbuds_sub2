@@ -1,6 +1,16 @@
 
 
 @media screen and (min-width: 768px) {
+    
+    
+    #logo {
+        height: 100px;
+        width: 100px;
+        margin-left: -100px;
+        position: absolute;
+    }
+    
+    
     #nav2,
     #nav3 {
         display: none;

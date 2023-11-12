@@ -5,7 +5,7 @@
     <!-- in mobile set initial zoom level of page to 100%, set site size to equal 
         device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>grid framework scaffold</title>
+    <title>Beanpods</title>
     <!-- Link to reset or normalize before main.css
     only choose one -->
 
@@ -14,35 +14,53 @@
 </head>
   <body>
    <div class="container">
-    <h1 class="hidden">Grid Framework Scaffold</h1>
+    <h1 class="hidden">BeanPods</h1>
 
     <header class="grid-con" id="main-header">
         <h2 class="hidden"> Main Header Content </h2>
-            <div class=" col-span-full col-end-1 m-col-start-1 m-col-end-3" 
-            id="main-logo">
-                <img src="images/bean-pods-logo.svg" alt="logo">
+        <div class="box_nav">
+            <div class="grid-con">
+                <img id="logo" class="col-span-full xl-col-start-1 xl-col-end-5" src="images/white-logo.svg" alt="logo">
+                <ul id="nav" class="col-start-6 col-end-6 m-col-start-4 m-col-end-10 l-col-start-6 l-col-end-12">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#animation">ANIMATION</a></li>
+                    <li><a href="#x-ray">X-RAY</a></li>
+                    <li><a href="#photos">PHOTOS</a></li>
+                </ul>    
             </div>
-            <nav class="box col-start-4 col-end-5 m-col-start-7 m-col-end-9 xl-col-start-8 xl-col-end-10">Nav</nav> 
-            <nav id="nav2" class="box xl-col-start-10 xl-col-end-12">Nav2</nav>
-            <nav id="nav3" class="box xl-col-start-12 xl-col-end-14">Nav3</nav>
+        </div>
     </header>
 
     <main>
         <h2 class="hidden"> Main Content </h2>
+
             <section class="full-width-grid-con" id="hero-con">
                 <h2 class="hidden"> Hero Image </h2>
                 <div id="hero" class="col-span-full">
                     <img src="images/styleframe-5.jpg" alt="bean pods promotion">
                 </div>
             </section>
+             
+        <section id="animation">
+            <h2 class="hidden"> scroll animation</h2>
+            <div class="col-span-full">
+                <canvas id="explode-view"></canvas> 
+            </div>
+        </section>
+
+
+    
 
 
             <div class="full-width-grid-con">
-                <section class="col-span-full">
+                <section id="xray" class="col-span-full">
                     <h2 class="hidden">X-Ray revealer</h2>
                     <div id="mobile-tablet-view">
                         <img src="images/xray-back.jpg" alt="earbud xray image">
                         <img src="images/xrayfront.jpg" alt="earbud full image">
+                    </div>
+                    <div class="full-widthgrid-con" >
+                        <p id="xray-title" class="box "> See Whats Inside!</p>
                     </div>
                     <div id="outerShell">
                         <div id="imageCon">
@@ -56,6 +74,9 @@
                     </div>
                 </section>
             </div>
+
+
+
 
             <section class="grid-con">
                 <h2 class="hidden"> Text </h2>
@@ -83,6 +104,7 @@
                 <h2 class="hidden"> Share Section </h2>
                 <div id="share" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-8 xl-col-start-1 xl-col-end-14">Share</div>
             </section>
+            
 
     </main>
 
@@ -107,15 +129,27 @@
 
             <section class="grid-con">
                 <h2 class="hidden"> Social Media </h2>
-                <div id="socials-1" class="box col-start-1 col-end-1 m-col-start-3 m-col-end-3 xl-col-start-10 xl-col-end-10">Icon</div>
-                <div id="socials-2" class="box col-start-2 col-end-2 m-col-start-4 m-col-end-4 xl-col-start-11 xl-col-end-11">Icon</div>
-                <div id="socials-3" class="box col-start-3 col-end-3 m-col-start-5 m-col-end-5 xl-col-start-12 xl-col-end-12">Icon</div>
-                <div id="socials-4" class="box col-start-4 col-end-4 m-col-start-6 m-col-end-6 xl-col-start-13 xl-col-end-13">Icon</div>
+                <div id="socials-1" class=" col-start-1 col-end-1 m-col-start-3 m-col-end-3 xl-col-start-10 xl-col-end-10">
+                        <img src="images/Facebook-icon.svg" alt="facebook icon">
+                </div>
+                <div id="socials-2" class=" col-start-2 col-end-2 m-col-start-4 m-col-end-4 xl-col-start-11 xl-col-end-11">
+                        <img src="images/Instagram-icon.svg" alt="instagram icon">
+                </div>
+                <div id="socials-3" class=" col-start-3 col-end-3 m-col-start-5 m-col-end-5 xl-col-start-12 xl-col-end-12">
+                        <img src="images/Twitter-icon.svg" alt="twitter icon">
+                </div>
+                <div id="socials-4" class=" col-start-4 col-end-4 m-col-start-6 m-col-end-6 xl-col-start-13 xl-col-end-13">
+                        <img src="images/tiktok-icon.svg" alt="tiktok icon">
+                </div>
             </section>
 
     </footer>
-
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+    <script src="js/ar.js"></script>
+    <script src="js/scrub.js"></script>
     <script src="js/main.js"></script>
    </div>
  </body>

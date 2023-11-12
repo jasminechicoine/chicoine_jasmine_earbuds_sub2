@@ -1,8 +1,21 @@
 
 
-#nav2,
-#nav3 {
-    display: none;
+#logo {
+    width: 100px;
+    position: absolute;
+    margin-left: -30px;
+    padding-top: 30px;
+
+   
+}
+
+#nav {
+    padding-left: 160px;
+}
+
+#hero-con {
+    
+    padding-bottom: 250px;
 }
 
 #hero {
@@ -28,6 +41,10 @@
 #socials-3,
 #socials-4 {
     height: auto;
+}
+
+#socials-4 {
+    width: 40px;
 }
 
 #prod-img-2,
