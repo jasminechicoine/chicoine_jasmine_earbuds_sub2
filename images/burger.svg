@@ -1,5 +1,5 @@
 <svg id="burger" xmlns="http://www.w3.org/2000/svg" width="21.4" height="16" viewBox="0 0 21.4 16">
-  <rect id="XMLID_2_" width="21.4" height="2"/>
-  <rect id="XMLID_3_" width="21.4" height="2" transform="translate(0 14)"/>
-  <rect id="XMLID_4_" width="21.4" height="2" transform="translate(0 7)"/>
+  <rect id="XMLID_2_" width="21.4" height="2" fill="#fff"/>
+  <rect id="XMLID_3_" width="21.4" height="2" transform="translate(0 14)" fill="#fff"/>
+  <rect id="XMLID_4_" width="21.4" height="2" transform="translate(0 7)" fill="#fff"/>
 </svg>

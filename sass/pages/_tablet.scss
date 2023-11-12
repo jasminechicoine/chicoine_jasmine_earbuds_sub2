@@ -1,24 +1,44 @@
 
 
 @media screen and (min-width: 768px) {
-    
+    #nav {
+        display: flex;
+        height: 80px;
+       
+      }
+
+    #nav li {
+        margin-right: 50px;
+        margin-top: 30px;
+        
+    }
+
+
+
+      /* Hide the hamburger menu placeholder for larger screens */
+      #hamburger-menu {
+        display: none;
+      }
     
     #logo {
         height: 100px;
         width: 100px;
         margin-left: -100px;
         position: absolute;
+        display: block;
+        padding-bottom: 20px;
     }
     
-    
-    #nav2,
-    #nav3 {
-        display: none;
+    #xray-title  {
+        height: 100px;
     }
 
-    #hero {
-        height: 500px;
+    #battery-text {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
+
+
 
     #image {
         height: 255px;
@@ -27,6 +47,10 @@
     #text {
         height: 108px;
         display: inline-block;
+    }
+
+    .battery-text {
+        color: aliceblue;
     }
 
     #prod-img-1,
@@ -55,4 +79,9 @@
     #socials-4 {
         height: 60px;
     }
+
+        #icons {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
 }
