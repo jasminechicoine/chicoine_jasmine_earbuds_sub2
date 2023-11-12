@@ -25,19 +25,20 @@
     //Not actually animating a DOM element, but rather an object
     //which contains a frame count
     gsap.to(buds, {
-        frame: 449,
+        frame: frameCount -1,
         snap: "frame",
         scrollTrigger: {
             trigger: "#explode-view",
             pin: true,
-            scrub: 8,
+            scrub: 1,
             start: "top top",
+            end: () => "+=" + (frameCount * 15) 
             
         },
         onUpdate: render
     })
 
-    images[0].addEventListener("onload", render);
+    //images[0].addEventListener("onload", render);
 
     function render() {
         //console.log(buds.frame);
