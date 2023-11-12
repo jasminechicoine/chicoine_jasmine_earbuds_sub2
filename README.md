@@ -1,6 +1,6 @@
 # Earbuds Project (BEAN PODS)
 
-TODO: This Website about Bean Pod earbuds
+TODO: This Website is about the new Bean Pod earbuds!
 
 ## Installation
 
@@ -8,7 +8,7 @@ TODO:
 
 ## Usage
 
-TODO:earbuds project
+TODO: learn about the earbuds through a xray slider, scroll animation, and images.
 
 ## Contributing
 
@@ -23,9 +23,8 @@ TODO:earbuds project
 TODO: Write history
 
 ## Credits
-
-TODO: Write credits
+Designer: [Jasmine Chicoine](https://github.com/jasminechicoine)
 
 ## License
 
-TODO: Write license
+TODO: MIT
