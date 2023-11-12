@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.19 175.18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0c422c;
+        font-family: MostraNuova-Heavy, 'Mostra Nuova';
+        font-size: 48px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #0a422b;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-3" d="m82.84,1.59l-9.75,7.39c-30.93,23.46-36.62,58.74-14.7,91.18l5.6,8.28"/>
+    <path class="cls-3" d="m82.46,4.16l6.56,10.27c20.81,32.61,14.09,67.74-17.37,90.79l-8.03,5.89"/>
+    <circle class="cls-3" cx="75.44" cy="36.25" r="6"/>
+    <circle class="cls-3" cx="72.22" cy="57.34" r="6"/>
+    <circle class="cls-3" cx="69.45" cy="78.85" r="6"/>
+    <path class="cls-3" d="m108.18,17.84l-2.42,11.99c-7.68,38.06,11.4,68.28,49.29,78.1l9.68,2.51"/>
+    <path class="cls-3" d="m109.6,20.02l11.71,3.37c37.18,10.69,55.38,41.48,47.04,79.57l-2.13,9.73"/>
+    <circle class="cls-3" cx="125.56" cy="48.72" r="6"/>
+    <circle class="cls-3" cx="137.1" cy="66.67" r="6"/>
+    <circle class="cls-3" cx="149.25" cy="84.64" r="6"/>
+    <text class="cls-1" transform="translate(0 163.66)"><tspan x="0" y="0">Bean </tspan><tspan class="cls-2" x="118.99" y="0">P</tspan><tspan x="146.3" y="0">ods</tspan></text>
+  </g>
+</svg>
